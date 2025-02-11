@@ -9,7 +9,7 @@ DATABASES: dict[str, dict[str, Any]] = {
     }
 }
 
-AKKOWED_HOSTS: list[str] = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS: list[str] = ["localhost", "127.0.0.1", "0.0.0.0"]
 
 CORS_ORIGIN_WHITELIST: list[str] = [
     "http://localhost:5173",
